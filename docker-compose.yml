@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  odm:
+    image: odm
+    volumes:
+      - ./data:/data/
+    build: .
