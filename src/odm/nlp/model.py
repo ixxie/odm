@@ -69,7 +69,7 @@ class Model:
         flat_tensors = PCA(norm_tensors)
 
         # plot map
-        filename = plot_embeddings(text, flat_tensors, arrows)
+        filename = plot_embeddings(lines, flat_tensors, arrows)
 
         return f'Plotted mindmap to {filename}'
 
